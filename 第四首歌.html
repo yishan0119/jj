@@ -4,17 +4,31 @@
 <meta chaeset="UTF-8">
 <title>期中啦‹‹\(´ω` )/››‹‹\( 　´)/››‹‹\( ´ω`)/››</title>
 <style>
-#aa{height:50px;width:100%;background-color:#f9c81e}
-#content{margin-top:10px;height:1000px;width:100%}
+#aa{position:fixed;z-index:999;height:50px;width:100%;background-color:#b3b3e6}
+#aa a{text-decoration: none}
+#content{position:relative;top:60px;height:1150px;width:100%;background-color:#b3c6ff;background-image:linear-gradient(#b3c6ff,#ccb3ff)}
 .bb{padding-left:40px;font-size:22px;padding-top:20px}
 ul{list-style-type:none;margin:0;padding:0}
 .cc{display:inline;margin-right:30px}
 #dd{font-size:30px}
 .flex-container{display:flex}
 .flex-container >  div{flex-basis:33.3%}
+#ee{}
+#ff{padding-left:20px}
+#gg{}
+.hh{margin-left:10px;margin-top:50px;border-top-left-radius:10%;border-top-right-radius:10%;border-bottom-left-radius:10%;border-bottom-right-radius:10%;width:550px;height:445px}
+.ii{margin-top:305px;padding-top:10px;border-top-left-radius:10%;border-top-right-radius:10%;border-bottom-left-radius:10%;border-bottom-right-radius:10%;width:440px;height:450px}
+.jj{margin-top:20px;border-top-left-radius:10%;border-top-right-radius:10%;border-bottom-left-radius:10%;border-bottom-right-radius:10%;width:440px;height:450px}
+
+@media screen and (max-width:635px){
+.flex-container{display:flex;flex-direction:column}
+#aa{height:70px}
+#ee{padding-top:20px}
+#ff{padding-top:20px}
+#gg{padding-left:20px}}
 </style>
 </head>
-<body>
+<body style="margin-top:0">
 <div id="aa">
 	<ul>
 		<li class="cc"><a href="首頁.html">首頁</li>
@@ -25,11 +39,14 @@ ul{list-style-type:none;margin:0;padding:0}
 		<li class="cc"><a href="第五首歌.html">因你而在</a></li>
 		<li class="cc"><a href="第六首歌.html">偉大的渺小</a></li>
 		<li class="cc"><a href="第七首歌.html">她說</a></li>
+		<li class="cc"><a href="第八首歌.html">不為誰而做的歌</a></li>
+		<li class="cc"><a href="第九首歌.html">可惜沒如果</a></li>
+		<li class="cc"><a href="第十首歌.html">醉赤壁</a></li>
 	</ul>
 </div>
 <div id="content">
 <div class="flex-container">
-	<div>
+	<div id="ee">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/27R6ZavdzzQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<li class="bb">歌曲：學不會</li>
 	<li class="bb">原唱：林俊傑</li>
@@ -37,8 +54,9 @@ ul{list-style-type:none;margin:0;padding:0}
 	<li class="bb">作曲：林俊傑</li>
 	<li class="bb">編曲：Terence Teo</li>
 	<li class="bb">監製：李偲菘</li>
+	<img class="hh"src="10.jpg">
 	</div>
-	<div style="padding-left:20px">
+	<div id="ff">
 		<p>你的痛苦　我都心疼　想為你解決</p>
 		<p>擋開流言　緊握你手　想飛奔往前</p>
 		<p>我相信愛能證明一切　夠真心會超越時間</p>
@@ -48,8 +66,9 @@ ul{list-style-type:none;margin:0;padding:0}
 		<p>記得自我保護　必要時候講些　善意謊言</p>
 		<p>總是學不會　真愛也有現實面</p>
 		<p>不是誰情願　就能夠解決</p>
+		<img class="ii"src="11.jpg">
 	</div>
-	<div>
+	<div id="gg">
 		<p>一次爭吵　一個心結　累積著改變</p>
 		<p>内心疏遠　足夠秒殺　外表多濃烈</p>
 		<p>才發現愛不代表一切　再真心也會被阻絕</p>
@@ -67,6 +86,7 @@ ul{list-style-type:none;margin:0;padding:0}
 		<p>記得自我保護　必要時候講些　善意謊言</p>
 		<p>不是學不會　只是覺得愛　太美</p>
 		<p>值得去沉醉　流淚</p>
+		<img class="jj"src="12.jpg">
 	</div>
 </div>
 </div>

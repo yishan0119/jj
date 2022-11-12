@@ -4,17 +4,31 @@
 <meta chaeset="UTF-8">
 <title>期中啦‹‹\(´ω` )/››‹‹\( 　´)/››‹‹\( ´ω`)/››</title>
 <style>
-#aa{height:50px;width:100%;background-color:#f9c81e}
-#content{margin-top:10px;height:1000px;width:100%}
+#aa{position:fixed;z-index:999;height:50px;width:100%;background-color:#b3b3e6}
+#aa a{text-decoration: none}
+#content{position:relative;top:60px;height:1200px;width:100%;background-color:#b3c6ff;background-image:linear-gradient(#b3c6ff,#ccb3ff)}
 .bb{padding-left:40px;font-size:22px;padding-top:20px}
 ul{list-style-type:none;margin:0;padding:0}
 .cc{display:inline;margin-right:30px}
 #dd{font-size:30px;}
 .flex-container{display:flex}
 .flex-container > div {flex-basis:33.3%}
+#ee{}
+#ff{padding-left:20px}
+#gg{}
+.hh{margin-left:10px;margin-top:200px;border-top-left-radius:10%;border-top-right-radius:10%;border-bottom-left-radius:10%;border-bottom-right-radius:10%;width:550px;height:445px}
+.ii{margin-top:175px;padding-top:10px;border-top-left-radius:10%;border-top-right-radius:10%;border-bottom-left-radius:10%;border-bottom-right-radius:10%;width:440px;height:450px}
+.jj{margin-top:370px;border-top-left-radius:10%;border-top-right-radius:10%;border-bottom-left-radius:10%;border-bottom-right-radius:10%;width:440px;height:450px}
+
+@media screen and (max-width:635px){
+.flex-container{display:flex;flex-direction:column}
+#aa{height:70px}
+#ee{padding-top:20px}
+#ff{padding-top:20px}
+#gg{padding-left:20px}}
 </style>
 </head>
-<body>
+<body style="margin-top:0">
 <div id="aa">
 	<ul>
 		<li class="cc"><a href="首頁.html">首頁</li>
@@ -25,18 +39,22 @@ ul{list-style-type:none;margin:0;padding:0}
 		<li class="cc"><a href="第五首歌.html">因你而在</a></li>
 		<li class="cc"><a href="第六首歌.html">偉大的渺小</a></li>
 		<li class="cc"><a href="第七首歌.html">她說</a></li>
+		<li class="cc"><a href="第八首歌.html">不為誰而做的歌</a></li>
+		<li class="cc"><a href="第九首歌.html">可惜沒如果</a></li>
+		<li class="cc"><a href="第十首歌.html">醉赤壁</a></li>
 	</ul>
 </div>
 <div id="content">
 	<div class="flex-container">
-		<div>
+		<div id="ee">
 		<iframe width="560"height="315"src="https://www.youtube.com/embed/iE0l8Tx62DE"title="YouTube video player"frameborder="0"allow="accelerometer;autoplay;clipboard-write; encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>
 		<li class="bb">歌曲：那些你很冒險的夢</li>
 		<li class="bb">原唱：林俊傑</li>
 		<li class="bb">作詞：王雅君</li>
 		<li class="bb">作曲：林俊傑</li>
+		<img class="hh"src="07.jpg">
 		</div>
-		<div style="padding-left:20px">
+		<div id="ff">
 			<p>當兩顆心開始震動</p>
 			<p>當你瞳孔學會閃躲</p>
 			<p>當愛慢慢被遮住只剩下黑</p>
@@ -51,8 +69,9 @@ ul{list-style-type:none;margin:0;padding:0}
 			<p>摺紙飛機 碰到雨天 終究會墜落</p>
 			<p>太殘忍的話我直說 因為愛很重</p>
 			<p>你卻不想懂 只往反方向走}*2</p>
+			<img class="ii"src="08.jpg">
 		</div>
-		<div>
+		<div id="gg">
 			<p>我不想放手 你鬆開的左手</p>
 			<p>你愛的放縱 我白不回天空</p>
 			<p>我輸了 累了 當你再也不回頭</p>
@@ -62,6 +81,7 @@ ul{list-style-type:none;margin:0;padding:0}
 			<p>太殘忍的話我直說 因為愛很重</p>
 			<p>你卻不想懂 只往反方向走</p>
 			<p>你真的不懂 我的愛已降落</p>
+			<img class="jj"src="09.jpg">
 		</div>
 </div>
 </div>

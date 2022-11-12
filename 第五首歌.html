@@ -4,17 +4,31 @@
 <meta chaeset="UTF-8">
 <title>期中啦‹‹\(´ω` )/››‹‹\( 　´)/››‹‹\( ´ω`)/››</title>
 <style>
-#aa{height:50px;width:100%;background-color:#f9c81e}
-#content{margin-top:10px;height:1000px;width:100%}
+#aa{position:fixed;z-index:999;height:50px;width:100%;background-color:#b3b3e6}
+#aa a{text-decoration: none}
+#content{position:relative;top:60px;height:1150px;width:100%;background-color:#b3c6ff;background-image:linear-gradient(#b3c6ff,#ccb3ff)}
 .bb{padding-left:40px;font-size:22px;padding-top:20px}
 ul{list-style-type:none;margin:0;padding:0}
 .cc{display:inline;margin-right:30px}
 #dd{font-size:30px}
 .flex-container{display:flex}
 .flex-container >  div{flex-basis:33.3%}
+#ee{}
+#ff{padding-left:20px}
+#gg{}
+.hh{margin-left:10px;margin-top:100px;border-top-left-radius:10%;border-top-right-radius:10%;border-bottom-left-radius:10%;border-bottom-right-radius:10%;width:550px;height:445px}
+.ii{margin-top:45px;padding-top:10px;border-top-left-radius:10%;border-top-right-radius:10%;border-bottom-left-radius:10%;border-bottom-right-radius:10%;width:440px;height:450px}
+.jj{margin-top:290px;border-top-left-radius:10%;border-top-right-radius:10%;border-bottom-left-radius:10%;border-bottom-right-radius:10%;width:440px;height:450px}
+
+@media screen and (max-width:635px){
+.flex-container{display:flex;flex-direction:column}
+#aa{height:80px}
+#ee{padding-top:30px;}
+#ff{padding-top:20px;}
+#gg{padding-left:20px}}
 </style>
 </head>
-<body>
+<body style="margin-top:0">
 <div id="aa">
 	<ul>
 		<li class="cc"><a href="首頁.html">首頁</li>
@@ -25,19 +39,23 @@ ul{list-style-type:none;margin:0;padding:0}
 		<li id="dd"class="cc"><a href="第五首歌.html">因你而在</a></li>
 		<li class="cc"><a href="第六首歌.html">偉大的渺小</a></li>
 		<li class="cc"><a href="第七首歌.html">她說</a></li>
+		<li class="cc"><a href="第八首歌.html">不為誰而做的歌</a></li>
+		<li class="cc"><a href="第九首歌.html">可惜沒如果</a></li>
+		<li class="cc"><a href="第十首歌.html">醉赤壁</a></li>
 	</ul>
 </div>
 <div id="content">
 <div class="flex-container">
-	<div>
+	<div id="ee">
 	<iframe width="560"height="315"src="https://www.youtube.com/embed/LWV-f6dMN3Q?controls=0"title="YouTube video player" frameborder="0"allow="accelerometer;autoplay;clipboard-write; encrypted-media;gyroscope;picture-in-picture"allowfullscreen></iframe>
 	<li class="bb">歌曲：因你而在</li>
 	<li class="bb">原唱：林俊傑</li>
 	<li class="bb">作詞：王雅君</li>
 	<li class="bb">作曲：林俊傑</li>
 	<li class="bb">編曲：Kenn C</li>
+	<img class="hh"src="13.jpg">
 	</div>
-	<div style="padding-left:20px">
+	<div id="ff">
 		<p>{我為你心跳 我為你祈禱</p>
 		<p>因為愛讓我們能遇到</p>
 		<p>因為你開始燃燒 痛才慢慢治療</p>
@@ -54,8 +72,9 @@ ul{list-style-type:none;margin:0;padding:0}
 		<p>慢慢走近你的步調</p>
 		<p>心也一層一層被你融掉</p>
 		<p>一天一天為你開竅 一秒一秒想你的微笑}*2</p>
+		<img class="ii"src="14.jpg">
 	</div>
-	<div>
+	<div id="gg">
 		<p>我為你心跳 我為你祈禱</p>
 		<p>因為愛讓我們能遇到</p>
 		<p>因為你開始燃燒 痛才慢慢治療</p>
@@ -66,6 +85,7 @@ ul{list-style-type:none;margin:0;padding:0}
 		<p>Baby you're my one and only yeah~you and me</p>
 		<p>Baby you're my one and only yeah~you and me</p>
 		<p>Baby you're my one and only yeah~you and me</p>
+		<img class="jj"src="15.jpg">
 	</div>
 </div>
 </div>

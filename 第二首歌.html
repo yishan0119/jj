@@ -4,17 +4,31 @@
 <meta chaeset="UTF-8">
 <title>期中啦‹‹\(´ω` )/››‹‹\( 　´)/››‹‹\( ´ω`)/››</title>
 <style>
-#aa{height:50px;width:100%;background-color:#f9c81e}
-#content{margin-top:10px;height:1000px;width:100%}
+#aa{position:fixed;z-index:999;height:50px;width:100%;background-color:#b3b3e6}
+#aa a{text-decoration: none}
+#content{position:relative;top:60px;height:1150px;width:100%;background-color:#b3c6ff;background-image:linear-gradient(#b3c6ff,#ccb3ff)}
 .bb{padding-left:40px;font-size:22px;padding-top:20px}
 ul{list-style-type:none;margin:0;padding:0}
 .cc{display:inline;margin-right:30px}
 #dd{font-size:30px}
 .flex-container{display:flex}
 .flex-container > div {flex-basis:33.3%}
+#ee{}
+#ff{padding-left:20px}
+#gg{}
+.hh{margin-left:10px;margin-top:45px;border-top-left-radius:10%;border-top-right-radius:10%;border-bottom-left-radius:10%;border-bottom-right-radius:10%;width:550px;height:445px}
+.ii{margin-top:300px;padding-top:10px;border-top-left-radius:10%;border-top-right-radius:10%;border-bottom-left-radius:10%;border-bottom-right-radius:10%;width:440px;height:450px}
+.jj{margin-top:55px;border-top-left-radius:10%;border-top-right-radius:10%;border-bottom-left-radius:10%;border-bottom-right-radius:10%;width:440px;height:450px}
+
+@media screen and (max-width:635px){
+.flex-container{display:flex;flex-direction:column}
+#aa{height:70px}
+#ee{padding-top:20px}
+#ff{padding-top:20px}
+#gg{padding-left:20px}}
 </style>
 </head>
-<body>
+<body style="margin-top:0">
 <div id="aa">
 	<ul>
 		<li class="cc"><a href="首頁.html">首頁</li>
@@ -25,11 +39,14 @@ ul{list-style-type:none;margin:0;padding:0}
 		<li class="cc"><a href="第五首歌.html">因你而在</a></li>
 		<li class="cc"><a href="第六首歌.html">偉大的渺小</a></li>
 		<li class="cc"><a href="第七首歌.html">她說</a></li>
+		<li class="cc"><a href="第八首歌.html">不為誰而做的歌</a></li>
+		<li class="cc"><a href="第九首歌.html">可惜沒如果</a></li>
+		<li class="cc"><a href="第十首歌.html">醉赤壁</a></li>
 	</ul>
 </div>
 <div id="content">
 	<div class="flex-container">
-		<div>
+		<div id="ee">
 		<iframe width="560"height="315"src="https://www.youtube.com/embed/YFr6p7vB9hc"title="YouTube video player"frameborder="0"allow="accelerometer;autoplay;clipboard-write; encrypted-media;gyroscope;picture-in-picture" allowfullscreen></iframe>
 		<li class="bb">歌曲：關鍵詞</li>
 		<li class="bb">原唱：林俊傑</li>
@@ -37,8 +54,9 @@ ul{list-style-type:none;margin:0;padding:0}
 		<li class="bb">作曲：林俊傑</li>
 		<li class="bb">編曲：吳慶隆</li>
 		<li class="bb">製作：林俊傑</li>
+		<img class="hh"src="06.jpg">
 		</div>
-		<div style="padding-left:20px">
+		<div id="ff">
 			<p>好好愛自己 就有人會愛你 這樂觀的說詞</p>
 			<p>幸福的樣子 我感覺好真實 找不到形容詞</p>
 			<p>沉默在掩飾 快氾濫的激情 只剩下語助詞</p>
@@ -48,8 +66,9 @@ ul{list-style-type:none;margin:0;padding:0}
 			<p>時間在消逝 我們的故事開始</p>
 			<p>這是第一次 讓我見識愛情可以慷慨又自私</p>
 			<p>你是我的關鍵詞</p>
+			<img class="ii"src="05.jpg">
 		</div>
-		<div>
+		<div id="gg">
 			<p>我不太確定 愛最好的方式 是動詞或名詞</p>
 			<p>很想告訴你 最赤裸的感情 卻又忘詞</p>
 			<p>聚散總有時 而哭笑也有時 我不怕潛台詞</p>
@@ -66,6 +85,7 @@ ul{list-style-type:none;margin:0;padding:0}
 			<p>我們的故事才正要開始</p>
 			<p>這是第一次 愛一個人愛得如此慷慨又自私</p>
 			<p>你是我的關鍵詞</p>
+			<img class="jj"src="04.jpg">
 		</div>
 </div>
 </div>
